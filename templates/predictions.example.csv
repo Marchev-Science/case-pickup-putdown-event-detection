@@ -1,0 +1,5 @@
+pred_id,clip_id,type,t_start,t_end,score,model
+pr_0001,clip_00044,putdown,6.10,7.00,0.82,layer1_tridet_v3
+pr_0002,clip_00044,pickup,2.30,2.90,0.41,layer1_tridet_v3
+pr_0003,clip_00031,pickup,14.20,15.00,0.91,layer2_qwen2p5vl_2b
+pr_0004,clip_00031,pickup,88.50,89.00,0.55,layer2_qwen2p5vl_2b

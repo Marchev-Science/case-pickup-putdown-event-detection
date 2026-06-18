@@ -1,0 +1,6 @@
+event_id,clip_id,type,t_start,t_end,hard_case,annotator,confidence,notes
+ev_0001,clip_00012,pickup,5.20,6.10,False,alex,high,right hand removes box from middle shelf
+ev_0002,clip_00012,putdown,30.40,31.30,False,alex,med,returns the same box
+ev_0003,clip_00031,pickup,14.00,15.20,False,bea,high,
+ev_0004,clip_00031,pickup,88.30,89.10,True,bea,low,two people in shot - which one is unclear
+ev_0005,clip_00031,putdown,90.10,91.00,True,bea,low,second person returns an item

@@ -1,0 +1,7 @@
+clip_id,s3_key,duration_s,fps,width,height,n_person_tracks,has_person,usable,active_start_s,active_end_s,split,session_id,notes
+clip_00007,raw/2026-w1/clip_00007.mp4,12.5,25.0,1920,1080,0,False,False,,,,,no person - lighting flicker triggered camera
+clip_00012,raw/2026-w1/clip_00012.mp4,48.2,25.0,1920,1080,1,True,True,3.0,44.0,train,sess_03,clear view of left shelf
+clip_00013,raw/2026-w1/clip_00013.mp4,9.8,25.0,1920,1080,1,True,True,1.2,8.5,train,sess_03,person browses then leaves - no events
+clip_00031,raw/2026-w1/clip_00031.mp4,121.0,25.0,1920,1080,2,True,True,6.0,99.0,val,sess_07,two people present in this span
+clip_00044,raw/2026-w2/clip_00044.mp4,15.3,25.0,1280,720,1,True,True,2.0,13.0,test,sess_11,one interaction
+clip_00052,raw/2026-w2/clip_00052.mp4,7.1,25.0,1280,720,0,False,False,,,,,reflection on door triggered camera
