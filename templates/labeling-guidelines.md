@@ -1,17 +1,17 @@
-# Labeling guidelines (template — copy into your own repo and use)
+# Labeling guidelines (template - copy into your own repo and use)
 
 This is the rulebook every annotator follows so that labels are **consistent**.
 It mirrors the definitions and the fixed edge-case rules in
-[`../docs/concepts.md`](../docs/concepts.md) — keep the two in sync.
+[`../docs/concepts.md`](../docs/concepts.md) - keep the two in sync.
 
 ---
 
 ## The two events
 
-- **`pickup`** — a person removes an item from a shelf/surface into their hand(s);
+- **`pickup`** - a person removes an item from a shelf/surface into their hand(s);
   the item leaves its resting place and is carried. The action runs from the hand
   starting to take the item until the item is in hand.
-- **`putdown`** — a person returns a *previously held* item onto a shelf/surface,
+- **`putdown`** - a person returns a *previously held* item onto a shelf/surface,
   releasing it so it rests there. The action runs from the hand approaching the
   surface until the item is released and settled.
 
@@ -45,8 +45,8 @@ note.
 
 ## The `hard_case` flag
 
-Set **`hard_case = True`** for events that are awkward but still labelable —
-multiple people in the shot, partial obscuring, or unusual motion — so they can be
+Set **`hard_case = True`** for events that are awkward but still labelable -
+multiple people in the shot, partial obscuring, or unusual motion - so they can be
 found and reviewed later. (Fully occluded events are excluded, not flagged.)
 
 ## Output format
@@ -59,5 +59,5 @@ Export to the `events` table in
 
 - Each annotator records their name in `annotator`.
 - Two people independently label a shared subset; compare presence, type, and
-  timing. Where you differ, the rule was unclear — clarify the wording here, then
+  timing. Where you differ, the rule was unclear - clarify the wording here, then
   continue.
