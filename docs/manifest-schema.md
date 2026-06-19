@@ -20,7 +20,6 @@ event-level facts and avoid repeating clip metadata on every event row.
 | `fps` | float | frames per second of the source |
 | `width`, `height` | int | resolution in pixels |
 | `n_person_tracks` | int | how many person tracklets were found (0 = empty clip) |
-| `has_person` | bool | did tracking find any person? |
 | `usable` | bool | kept for labeling/use |
 | `active_start_s` | float | start of the span where a person is present (for trimming dead footage) |
 | `active_end_s` | float | end of that span |
