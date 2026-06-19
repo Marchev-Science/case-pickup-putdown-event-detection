@@ -64,7 +64,7 @@ The defining moment is the **transfer of the item from the shelf to the hand**.
 Mark the event time at that transfer (or as a short interval bracketing it).
 
 ### `putdown`
-> A person **places a previously taken item back onto a shelf or surface**,
+> A person **places an item back onto a shelf or surface**,
 > releasing it from their hand(s) so that it rests there again.
 
 Note the word **"taken"**: a `putdown` is the *return* of an item the person was
@@ -84,9 +84,8 @@ you design Layers 1 and 2.
 
 Be strict about these, or your labels will be noisy:
 
-- **Touching / inspecting without removing** — the person picks an item up a few
-  centimetres, turns it, and leaves it where it was. If the item does not leave
-  its place and end up carried, it is **not** a `pickup`.
+- **Touching / inspecting without removing** — the person touches an item and leaves it where it was, without moving it. If the item does not leave
+  its place, it is **not** a `pickup`.
 - **Just looking / reaching past** — no item leaves the shelf.
 - **Walking by, browsing, standing.**
 - **Restocking / stuff appearing on shelves that was never "taken"** — a
