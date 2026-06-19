@@ -23,7 +23,7 @@ Your job is to build a computer-vision system that watches this footage and
 
 1. **`pickup`** - a person removes an item from a shelf and takes it into their
    hand(s).
-2. **`putdown`** - a person places a *previously taken* item back onto a shelf
+2. **`putdown`** - a person places an item back onto a shelf
    or surface.
 
 For each event the system should say **what** happened (`pickup` or `putdown`)
