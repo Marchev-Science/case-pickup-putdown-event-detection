@@ -88,10 +88,6 @@ Be strict about these, or your labels will be noisy:
   its place, it is **not** a `pickup`.
 - **Just looking / reaching past** — no item leaves the shelf.
 - **Walking by, browsing, standing.**
-- **Restocking / stuff appearing on shelves that was never "taken"** — a
-  `putdown` is specifically the return of a *taken* item, not generic placement
-  of new goods. (If your footage never contains restocking, you can ignore this,
-  but write down the decision.)
 - **Empty clips / no person** — these are removed in Layer 0, not labeled as
   events.
 
